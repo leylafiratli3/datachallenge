@@ -19,7 +19,8 @@ Created a script to gather number of records per event type and calculate the de
   4. How does overall traffic and event type vary by time of the day, month, year?
   5. Which customers added to cart or started the checkout of which products? Save these customers into a new table as data for possible marketing (ex. if the price of a product that was almost purchased drops, send notification to that user)
   6. How does price, product and event type vary by traffic source?
-  7. (As visualized below) Where is the traffic coming from? Which sources are the most effective?
+  7. Which pages in the website did the user go through to land at the interacted product?
+  8. (As visualized below) Where is the traffic coming from? Which sources are the most effective?
 
 ![alt text](https://github.com/leylafiratli3/datachallenge/blob/main/Traffic%20Sources.PNG)
 
@@ -32,7 +33,6 @@ Hashed_all_events:
   3. Has empty hashed_customer_ids for multiple hashed_customer_session values
   4. Column with NULL only values called 'event value'
   5. NULL values in most columns
-  6. Invalid context page paths
  
  Hashed_customer_sessions:
   1. Has duplicate hashed_session_ids tied to different hashed_customer_ids
