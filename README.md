@@ -4,7 +4,6 @@
 
 Created a table joining hashed_all_events and hashed_customer_sessions on hashed_session_id. Saved the results in new table ‘identity_stitching’.
 
-![alt text](https://github.com/leylafiratli3/datachallenge/blob/main/database_architecture.PNG)
 ![alt text](https://github.com/leylafiratli3/datachallenge/blob/main/identity_stitching.PNG)
 
 **Funnel reporting**
