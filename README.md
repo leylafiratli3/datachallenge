@@ -39,8 +39,8 @@ Hashed_all_events:
   
 **Additional data collection ideas**
 
-Has this customer id ever viewed this product before? How many times? What was the price of the item at those times? What was the timestamp?
-     - view_count (integer)
-     - latest_view_time (timestamp)
-     - latest_view_price (integer)
+  1. Has this customer id ever viewed this product before? How many times? What was the price of the item at those times? What was the timestamp?
+    *view_count (integer)
+    *latest_view_time (timestamp)
+     *latest_view_price (integer)
 
