@@ -1,6 +1,6 @@
 # Parachute Data Challenge
 
-** Identity stitching **
+Identity stitching**
 
 Created a table joining hashed_all_events and hashed_customer_sessions on hashed_session_id. Saved the results in new table ‘identity_stitching’.
 
@@ -9,14 +9,21 @@ Created a table joining hashed_all_events and hashed_customer_sessions on hashed
 
 **Funnel reporting**
 
+Created a script to gather number of records per event type and calculate the delta between each level. Used Excel to create a simple visualization for the report.
+
+![alt text](https://github.com/leylafiratli3/datachallenge/blob/main/Purchase%20Funnel.PNG)
 
 **Additional Insights from available data**
   1. What other products did the customer view in the same session? What were the prices? 
-  2. Where is the traffic coming from? Which sources are the most effective? How does price, product and event type vary by traffic source?
-  3. What product sells best in each region? How does the traffic source, event type and price vary by region?
-  4. What devices do the users use? Is there a relationship between user device and event type?
-  5. How does overall traffic and event type vary by time of the day, month, year?
-  6. Which customers added to cart or started the checkout of which products? Save these customers into a new table as data for possible marketing (ex. if the price of a product that was almost purchased drops, send notification to that user)
+  2. What product sells best in each region? How does the traffic source, event type and price vary by region?
+  3. What devices do the users use? Is there a relationship between user device and event type?
+  4. How does overall traffic and event type vary by time of the day, month, year?
+  5. Which customers added to cart or started the checkout of which products? Save these customers into a new table as data for possible marketing (ex. if the price of a product that was almost purchased drops, send notification to that user)
+  6. How does price, product and event type vary by traffic source?
+  7. (As visualized below) Where is the traffic coming from? Which sources are the most effective?
+
+![alt text](https://github.com/leylafiratli3/datachallenge/blob/main/Traffic%20Sources.PNG)
+
 
 **Shortcomings of Raw Data**
 
