@@ -1,4 +1,4 @@
-# Parachute Data Challenge
+# Data Challenge
 
 **Identity stitching**
 
