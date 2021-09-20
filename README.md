@@ -1,6 +1,6 @@
 # Parachute Data Challenge
 
-Identity stitching**
+**Identity stitching**
 
 Created a table joining hashed_all_events and hashed_customer_sessions on hashed_session_id. Saved the results in new table ‘identity_stitching’.
 
