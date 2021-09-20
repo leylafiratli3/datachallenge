@@ -1,6 +1,6 @@
 # Parachute Data Challenge
 
-##**Identity stitching**
+##Identity stitching
 
 Deleted NULL hashed_session_ids and hashed_customer_ids from hashed_all_events and hashed_customer_sessions. Created a table joining hashed_all_events and hashed_customer_sessions on hashed_session_id since it’s the most unique identifier and should be the primary key. Saved the results in new table ‘identity_stitching’.
 
